@@ -18,3 +18,4 @@
 #
 
 default['gluster']['version'] = '3.4'
+default['gluster']['minor_version'] = 'LATEST'
