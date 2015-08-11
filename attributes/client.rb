@@ -21,7 +21,7 @@
 case node['platform']
 when 'ubuntu'
   default['gluster']['client']['package'] = 'glusterfs-client'
-when 'redhat', 'centos'
+when 'redhat', 'centos', 'amazon'
   default['gluster']['client']['package'] = 'glusterfs'
 end
 
