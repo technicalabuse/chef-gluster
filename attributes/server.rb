@@ -31,7 +31,7 @@ end
 case node['platform']
 when 'ubuntu'
   default['gluster']['server']['dependencies'] = ['xfsprogs']
-when 'redhat', 'centos'
+when 'redhat', 'centos', 'amazon'
   default['gluster']['server']['dependencies'] = ['xfsprogs']
 end
 
