@@ -15,6 +15,7 @@ Attributes
 
 ### gluster::default
 - `node['gluster']['version']` - version to install, defaults to 3.4
+- `node['gluster']['minor_version']` - For RHEL, CENTOS, Amazon version in package url. Default is "LATEST"
 
 ### gluster::client
 Node attributes to specify volumes to mount. This has been deprecated in favor of using the 'gluster_mount' LWRP.
