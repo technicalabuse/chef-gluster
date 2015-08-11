@@ -8,14 +8,14 @@ This cookbook is used to install and configure Gluster on both servers and clien
 
 Platforms
 ---------
-This cookbook has been tested on Ubuntu 12.04/14.04 and CentOS 6.5.
+This cookbook has been tested on Ubuntu 12.04/14.04 and CentOS 6.6.
 
 Attributes
 ----------
 
 ### gluster::default
 - `node['gluster']['version']` - version to install, defaults to 3.4
-- `node['gluster']['minor_version']` - For RHEL, CENTOS, Amazon version in package url. Default is "LATEST"
+- `node['gluster']['minor_version']` - For RHEL, CentOS, Amazon version in package url. Default is "LATEST"
 
 ### gluster::client
 Node attributes to specify volumes to mount. This has been deprecated in favor of using the 'gluster_mount' LWRP.
